@@ -1,4 +1,6 @@
 # Final Project and Deployment
+# **LIVE PREVIEW**
+https://mmankaflo.github.io/final-project-and-deployment/index.html
 
 ## Objectives
 Build a fully functional web application.
