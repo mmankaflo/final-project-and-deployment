@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <button class="menu-icon" id="menuToggle" aria-label="Open menu">☰</button>
+        </div>
+        <h1 class="site-title">Thee Tech Blog</h1>
+        <div class="header-right">
+            <img src="logo-tech.svg" alt="Thee Tech Blog Logo" class="site-logo">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="events.html" class="nav-btn">Events</a>
+            <a href="news.html" class="nav-btn">News</a>
+            <a href="about.html" class="nav-btn">About</a>
+            <a href="investors.html" class="nav-btn">For Investors</a>
+        </nav>
+        <div class="dropdown-menu" id="dropdownMenu">
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="news.html">News</a>
+            <a href="about.html">About</a>
+            <a href="investors.html">For Investors</a>
+            <a href="support.html">Support</a>
+            <a href="subscribe.html">Subscribe</a>
+            <a href="membership.html">Membership</a>
+        </div>
+    </header>
+    <main id="posts-list">
+        <div class="nav-buttons">
+            <button onclick="window.history.back()">&#8592; Previous</button>
+            <a href="index.html" class="home-btn">Home</a>
+        </div>
+        <div class="post">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="AI" class="post-img">
+            <h2><a href="post.html?id=1">The Rise of AI in Everyday Life</a></h2>
+            <small>2025-05-15</small>
+            <div>Artificial Intelligence is transforming how we live, work, and interact. From smart assistants to self-driving cars, AI is everywhere...</div>
+        </div>
+        <div class="post">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" alt="JavaScript" class="post-img">
+            <h2><a href="post.html?id=2">JavaScript: The Language of the Web</a></h2>
+            <small>2025-05-14</small>
+            <div>JavaScript powers interactive websites and web apps. Learn why it's essential for modern web development and how to get started...</div>
+        </div>
+        <div class="post">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" alt="Cloud Computing" class="post-img">
+            <h2><a href="post.html?id=3">Cloud Computing: The Future is Now</a></h2>
+            <small>2025-05-13</small>
+            <div>Cloud platforms like AWS, Azure, and Google Cloud are changing how businesses deploy and scale applications. Discover the benefits...</div>
+        </div>
+        <div class="post">
+            <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Responsive Design" class="post-img">
+            <h2><a href="post.html?id=4">Responsive Design: Why It Matters</a></h2>
+            <small>2025-05-12</small>
+            <div>With users accessing the web on all kinds of devices, responsive design ensures your site looks great everywhere. Here’s how to implement it...</div>
+        </div>
+        <div class="post">
+            <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="CSS Grid" class="post-img">
+            <h2><a href="post.html?id=5">Getting Started with CSS Grid</a></h2>
+            <small>2025-05-11</small>
+            <div>CSS Grid makes complex layouts easy. Learn the basics and start building beautiful, flexible web pages today...</div>
+        </div>
+    </main>
+    <footer>
+        <section class="about-blog">
+            <h3>About This Blog</h3>
+            <p>This blog is dedicated to sharing the latest trends, tutorials, and insights in technology. Whether you're a beginner or an experienced developer, you'll find valuable resources on AI, web development, cloud computing, responsive design, and more.</p>
+            <p>All articles are written to help you learn, grow, and stay updated in the fast-paced world of tech. We believe in making technology accessible and understandable for everyone.</p>
+            <p>Contact us at <a href="mailto:info@mytechblog.com">info@mytechblog.com</a> or follow us on <a href="#">Twitter</a> and <a href="#">LinkedIn</a> for more updates!</p>
+        </section>
+        <p>&copy; 2025 My Blog</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

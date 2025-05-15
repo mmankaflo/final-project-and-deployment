@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership | Thee Tech Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="site-title">Thee Tech Blog</h1>
+    </header>
+    <main>
+        <div class="nav-buttons">
+            <button onclick="window.history.back()">&#8592; Previous</button>
+            <a href="index.html" class="home-btn">Home</a>
+        </div>
+        <h2>Membership</h2>
+        <p>Become a member and unlock exclusive benefits:</p>
+        <ul>
+            <li>Access to premium articles and resources</li>
+            <li>Early invitations to tech events and webinars</li>
+            <li>Members-only newsletter</li>
+            <li>Direct Q&A with our tech experts</li>
+        </ul>
+        <h3>Join Now</h3>
+        <form class="membership-form">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <button type="submit">Become a Member</button>
+        </form>
+        <p>Already a member? <a href="#">Sign in</a></p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Thee Tech Blog</p>
+    </footer>
+    <script>
+    document.querySelector('.membership-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('Welcome to Thee Tech Blog Membership!');
+        this.reset();
+    });
+    </script>
+</body>
+</html>
